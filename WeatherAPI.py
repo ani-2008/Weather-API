@@ -17,7 +17,7 @@ def weather():
 def main():
     obj = weather()        
     day = obj['forecast']['forecastday'][0]['day'] 
-    print(obj)
+    print(obj['location']['name'],obj['location']['region'],obj['location']['country'],sep=", ")
     print("Max Temp:"+str(day['maxtemp_c']),"Min Temp:"+str(day['mintemp_c']),"Avg Temp:"+str(day['avgtemp_c']),sep="\n")
 
 main()
