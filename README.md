@@ -10,4 +10,4 @@ You can use this website to get your API key and use
 
 Just get your API key from the website and paste it in template.env file and run python script (note that template.env file and python file should be in same directory) 
 
-I am learning so would appreciate any your thoughts
+I am learning so would appreciate your thoughts
